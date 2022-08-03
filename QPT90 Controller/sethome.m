@@ -1,0 +1,3 @@
+function sethome(device)
+    data = sendCmd(device, buildCommand([0x02 0x00 0x42 0x1F 0x00 0x03]));
+end
